@@ -1,0 +1,163 @@
+*{
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.ipad{
+	padding-left: 45px;
+}
+.navbar li{
+	display: inline-block;
+	list-style: none;
+	
+	
+}
+.navbar li:not(:nth-child(2)){
+		padding: 20px; 
+			
+	
+}
+.navbar a{
+	text-decoration : none;
+	display: inline-block;
+color: #010101;
+font-weight: bold;
+
+}
+.navbar li:hover{
+	font-size: 32px;
+}
+
+.list-group li {
+	display: inline-block;
+	
+}
+.list-group li i{
+	font-size: 32px;
+	margin-right: 22px;
+	padding-right: 22px; 
+}
+/* -------------------------------------------- */
+
+.offset1 .pre-headding{
+	font-size: 20px;
+	color: #313841;
+	font-weight: bold;
+    text-align: center;
+	
+}
+.offset{
+	margin-left: calc(100% * 2/12);
+}
+.offset1{
+	margin-left: calc(100% * 1/12);
+}
+.para{
+	font-size: 16px;
+	color: #555555;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.para1{
+	text-align: center;
+	padding-right: 35px;
+	padding-left: 35px;
+	
+}
+.sub-headding{
+	font-size: 32px;
+	color: #010101 !important;
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-top: 80px;
+}
+.pre-headding{
+	font-size: 20px;
+	color: #313841;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+h3{
+	 text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+	color: #010101;
+	margin-bottom: 20px;
+
+}
+p{
+	text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+	color: #898989;
+
+}
+/* ---------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------------ */
+.offset-3, .subheadding{
+	color: #fcdb00;
+	font-size: 32px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px !important;
+}
+.para3{
+	font-size: 20px;
+	font-weight: 500;
+	color: #898989;
+	text-align: center;
+}
+.offset3{
+	margin-left: calc(100% * 1/12);
+}
+.para3{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.mb{
+	margin-bottom: 50px;
+}
+.px{
+	padding-left:40px;
+	padding-right: 50px;
+}
+.form-control{
+   width: calc(100% - 200px);
+	height: 60px;
+     padding-left: 25px;
+
+}
+.form-control::placeholder{
+	font-size: 20px;
+	font-weight: bold;
+}
+.btn-primary{
+	cursor: pointer; 
+	width: 124px;
+	padding: 20px;
+	 margin-left: 20px;
+	 border-radius: 10px;
+	 background: #fcdb00;
+	 font-size: 20px;
+	 font-weight: bold;
+	 font-style: italic;
+}
+
+.list-group{
+	
+	text-align: center;
+
+
+}
+.list-group-itom li a{
+text-decoration: none;
+}
+.list-group-itom{
+	color: #ffffff;
+		list-style: none;
+		margin-bottom: 30px;
+		text-align: center;
+}
